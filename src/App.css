@@ -9,6 +9,7 @@ body {
   background-size: cover;
   color: whitesmoke;
   overflow-x: hidden;
+ 
 }
 
 /* NAV BAR */
@@ -32,23 +33,31 @@ nav a {
   text-decoration: none;
   color: whitesmoke;
   margin: .5%;
-  border-right: 1px solid whitesmoke;
+  border-right: 1px solid rgb(255, 250, 195);
   padding: .3% 1%;
+  font-family: 'Mukta', sans-serif;
+  text-shadow: 0px 0px 20px rgb(0, 195, 255);
 }
 
 nav a:hover{
-  color: rgb(255, 209, 217);
- border-bottom: 1px solid rgb(255, 209, 217);
+  text-shadow: 0px 0px 20px rgb(255, 209, 217);
+ border-bottom: 1px solid rgb(255, 250, 195);
   border-right: transparent;
 }
 
 /* LANDING BODY */
 
+.landing-container{
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+
 .landing-body {
   height: 90vh;
-  width: 100vw;
+  width: 60vw;
   /* border: 1px solid white; */
-  
+  /* z-index: 0; */
 }
 
 .welcome {
@@ -58,6 +67,7 @@ nav a:hover{
   display: flex;
   align-items: center;
   margin-top: 20vh;
+  text-shadow: 0px 0px 10px rgb(0, 195, 255);
 }
 
 .welcome h1 {
@@ -81,10 +91,28 @@ nav a:hover{
   margin-left: 12vw;
   padding-left: 5vw;
   width: 60vw;
-  border-left: 1px solid rgb(255, 209, 217);;
+  border-left: 1px solid rgb(255, 250, 195);;
   font-family: 'Mukta', sans-serif;
   line-height: 1.2;
   letter-spacing: .5px;
+  text-shadow: 0px 0px 5px rgb(255, 209, 217);
 }
 
+
+.img-body{
+  width: 38vw;
+  height: 90vh;
+  /* border: 1px solid yellow; */
+  display: flex;
+}
  
+.img{
+height: 55vh;
+width: 38vw;
+/* border: 1px solid green; */
+background-image: url(./assets/ufo2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+   background-repeat: no-repeat;
+   margin-top: 10vh;
+}
