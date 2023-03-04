@@ -94,7 +94,7 @@ nav a:active{
 .landing-container{
   display: flex;
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
 }
 
 .landing-body {
@@ -187,4 +187,263 @@ background-image: url(./assets/ufo2.png);
   width: 1vw;
   border-top: 10px dotted rgb(255, 193, 239);
   padding: 1px;
+}
+
+
+/* SKILLS + ICONS*/
+.skill-title{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+  text-shadow: 0px 0px 10px rgb(0, 195, 255);
+}
+
+.skill-title h1 {
+  color: whitesmoke;
+  font-size: 5vw;
+  letter-spacing: 5px; 
+  font-weight: 200;
+  font-family: 'Noto Serif Display', serif;
+  
+}
+.skills {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 80vh;
+  /* border: 1px solid red; */
+}
+
+.logo-c{
+  height: 100vh;
+  width: 85vw;
+  margin: 0;
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.dev-logo {
+  width: 18vw;
+  height: 18vh;
+  /* border: 1px solid pink; */
+  margin: 1.2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ margin-bottom: 3%;
+}
+
+/* .dev-logo p{
+  margin: 5%;
+} */
+
+.html {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/HTML.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.html-box{
+  border-left: 1px solid rgb(255, 158, 122);
+  border-bottom: 5px solid rgb(255, 158, 122);
+  border-right: 2px solid rgb(255, 158, 122);
+  border-radius: 0 0 10px 10px;
+  /* box-shadow: rgb(255, 124, 76); */
+}
+
+.css {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/CSS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.css-box{
+   border-left: 1px solid rgb(71, 147, 255);
+  border-bottom: 5px solid rgb(71, 147, 255);
+  border-right: 2px solid rgb(71, 147, 255);
+  border-radius: 0 0 10px 10px;
+}
+
+.js {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/JS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.js-box{
+   border-left: 1px solid rgb(248, 248, 14);
+  border-bottom: 5px solid rgb(248, 248, 14);
+  border-right:  2px solid rgb(248, 248, 14);
+  border-radius: 0 0 10px 10px;
+}
+
+.react {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/react.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.react-box{
+   border-left: 1px solid rgb(14, 217, 248);
+  border-bottom: 5px solid rgb(14, 217, 248);
+  border-right: 2px solid rgb(14, 217, 248);
+  border-radius: 0 0 10px 10px;
+}
+
+.node {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/node.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.node-box{
+   border-left: 1px solid rgb(194, 255, 109);
+  border-bottom: 5px solid rgb(194, 255, 109);
+  border-right: 2px solid rgb(194, 255, 109);
+  border-radius: 0 0 10px 10px;
+}
+
+.ex {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/express.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.ex-box{
+   border-left: 1px solid rgb(63, 63, 63);
+  border-bottom: 5px solid rgb(63, 63, 63);
+  border-right: 2px solid rgb(63, 63, 63);
+  border-radius: 0 0 10px 10px;
+}
+
+.sql {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/SQL.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.sql-box{
+   border-left: 1px solid rgb(78, 141, 200);
+  border-bottom: 5px solid rgb(78, 141, 200);
+  border-right: 2px solid rgb(78, 141, 200);
+  border-radius: 0 0 10px 10px;
+}
+
+.mysql {
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/mysql.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.mysql-box{
+   border-left: 1px solid rgb(22, 97, 121);
+  border-bottom: 5px solid rgb(22, 97, 121);
+  border-right: 2px solid rgb(22, 97, 121);
+  border-radius: 0 0 10px 10px;
+}
+
+.seq{
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/sequelize.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.seq-box{
+   border-left: 1px solid rgb(60, 162, 197);
+  border-bottom: 5px solid rgb(60, 162, 197);
+  border-right: 2px solid rgb(60, 162, 197);
+  border-radius: 0 0 10px 10px;
+}
+
+.mongo{
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/mongoDB.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.mongo-box{
+   border-left: 1px solid rgb(196, 255, 173);
+  border-bottom: 5px solid rgb(196, 255, 173);
+  border-right: 2px solid rgb(196, 255, 173);
+  border-radius: 0 0 10px 10px;
+}
+
+.mongoose{
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/mongoose.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.mongoose-box{
+   border-left: 1px solid rgb(133, 40, 40);
+  border-bottom: 5px solid rgb(133, 40, 40);
+  border-right: 2px solid rgb(133, 40, 40);
+  border-radius: 0 0 10px 10px;
+}
+
+.boot{
+  height: 12vh;
+  width: 15vw;
+  background-image: url(./assets/icons/bootstrap.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.boot-box{
+   border-left: 1px solid rgb(95, 44, 147);
+  border-bottom: 5px solid rgb(95, 44, 147);
+  border-right: 2px solid rgb(95, 44, 147);
+  border-radius: 0 0 10px 10px;
 }

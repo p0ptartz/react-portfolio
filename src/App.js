@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
+import Skills from './components/Skills';
 import './App.css';
 
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Landing />
+      <Skills />
     </div>
   );
 }
