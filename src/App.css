@@ -94,7 +94,7 @@ nav a:active{
 .landing-container{
   display: flex;
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
 }
 
 .landing-body {
@@ -121,6 +121,7 @@ nav a:active{
   font-weight: 200;
   font-family: 'Noto Serif Display', serif;
   padding-left: 12vw;
+  
 }
 
 .about {
@@ -159,4 +160,20 @@ background-image: url(./assets/ufo2.png);
   background-position: 50% 50%;
    background-repeat: no-repeat;
    margin-top: 10vh;
+}
+
+/* LINE BREAK */
+
+.line-container{
+  width: 100vw;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.line{
+  height: 5px;
+  width: 5vw;
+  border-top: 10px dotted rgb(255, 251, 205);
+  
 }
