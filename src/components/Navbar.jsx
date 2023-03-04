@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <section className="nav-container">
             <div className="logo">
-                <h1>eric<span className="last-name">Meyers</span></h1>
+                <h1>p0p<span className="last-name">Tartz</span></h1>
             </div>
             <nav>
                 <div>
