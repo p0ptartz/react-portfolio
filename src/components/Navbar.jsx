@@ -7,10 +7,21 @@ function Navbar() {
                 <h1>eric<span className="last-name">Meyers</span></h1>
             </div>
             <nav>
-                <a href="#">RESUME </a>
-                <a href="#">SKILLS</a>
-                <a href="#">PROJECTS</a>
-                <a href="#">CONTACT</a>
+                <div>
+                    <a href="#">RESUME </a>
+                </div>
+                <div>
+                    <a href="#">SKILLS</a>
+                </div>
+                <div>
+
+                    <a href="#">PROJECTS</a>
+                </div>
+                <div>
+                    <a href="#">CONTACT</a>
+                </div>
+
+
             </nav>
 
         </section>

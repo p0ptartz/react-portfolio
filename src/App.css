@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 12vw;
- 
+ cursor:default;
 }
 
 .logo h1 {
@@ -40,6 +40,15 @@ body {
 
 .last-name{
   text-shadow: 0px 0px 20px rgb(0, 195, 255);
+  
+}
+
+.logo h1:hover{
+text-shadow: 0px 0px 20px rgb(0, 195, 255);
+}
+
+.last-name:hover{
+  text-shadow: 0px 0px 20px #ff9dd9;
 }
 
 nav{
@@ -55,7 +64,6 @@ nav a {
   text-decoration: none;
   color: whitesmoke;
   margin: .5%;
-  /* border-right: 1px solid rgb(254, 250, 206); */
   padding: .0% 4%;
   font-family: 'Mukta', sans-serif;
   text-shadow: 0px 0px 20px rgb(0, 195, 255);
@@ -63,9 +71,22 @@ nav a {
 
 nav a:hover{
   text-shadow: 0px 0px 20px rgb(255, 209, 217);
- /* border-bottom: 1px solid whitesmoke; */
- box-shadow: 0px 0px 10px rgb(255, 250, 195);
+ /* border-bottom: 1px solid rgb(255, 209, 217); */
+ 
   border-right: transparent;
+  
+}
+
+nav div{
+  /* border: 1px solid pink; */
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav a:active{
+ text-shadow: 0px 0px 20px rgb(255, 234, 3);
+  font-size: smaller;
 }
 
 /* LANDING BODY */
