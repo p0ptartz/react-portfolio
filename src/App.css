@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: radial-gradient(circle, rgba(17,17,25,1) 0%, rgba(8,9,10,1) 100%, rgba(18,18,23,1) 86%);
   background-size: cover;
-  color: #333;
+  color: whitesmoke;
   overflow-x: hidden;
 }
 
@@ -37,5 +42,49 @@ nav a:hover{
   border-right: transparent;
 }
 
+/* LANDING BODY */
+
+.landing-body {
+  height: 90vh;
+  width: 100vw;
+  /* border: 1px solid white; */
+  
+}
+
+.welcome {
+  height: 20vh;
+  width: 60vw;
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.welcome h1 {
+  color: whitesmoke;
+  font-size: 8vw;
+  letter-spacing: 5px; 
+  font-weight: 200;
+  font-family: 'Noto Serif Display', serif;
+  padding-left: 12vw;
+}
+
+.about {
+  margin-top: 2%;
+  width: 60vw;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.about p{
+  margin-left: 12vw;
+  padding-left: 5vw;
+  width: 60vw;
+  border-left: 1px solid rgb(255, 209, 217);;
+  font-family: 'Mukta', sans-serif;
+  line-height: 1.2;
+  letter-spacing: .5px;
+}
 
  
