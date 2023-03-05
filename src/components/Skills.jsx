@@ -84,7 +84,13 @@ function Skills() {
                     </div>
 
                 </div>
+
             </section>
+            <div className="line-container">
+                <div className="line"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+            </div>
         </div>
     )
 }
