@@ -246,9 +246,6 @@ background-image: url(./assets/ufo2.png);
  margin-bottom: 3%;
 }
 
-/* .dev-logo p{
-  margin: 5%;
-} */
 
 .html {
   height: 12vh;
@@ -266,6 +263,10 @@ background-image: url(./assets/ufo2.png);
   border-right: 2px solid rgb(255, 158, 122);
   border-radius: 0 0 10px 10px;
   /* box-shadow: rgb(255, 124, 76); */
+}
+
+.dev-logo:hover{
+  transform:translateY(-20px);
 }
 
 .css {
