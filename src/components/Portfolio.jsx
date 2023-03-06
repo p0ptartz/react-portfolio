@@ -32,7 +32,7 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-            <div className="proj">
+            <div className="proj proj-3">
                 <div className="proj-3-img proj-img">
                     <div className="blur">
                         <a className="proj-btn" href="">VIEW HERE</a>
@@ -46,7 +46,11 @@ function Portfolio() {
                 </div>
             </div>
 
-
+            <div className="line-container">
+                <div className="line"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+            </div>
 
         </div>
     )
