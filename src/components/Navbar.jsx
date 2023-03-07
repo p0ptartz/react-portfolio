@@ -8,17 +8,17 @@ function Navbar() {
             </div>
             <nav>
                 <div>
-                    <a href="#">RESUME </a>
+                    <a href="">RESUME </a>
                 </div>
                 <div>
-                    <a href="#">SKILLS</a>
+                    <a href="#skills">SKILLS</a>
                 </div>
                 <div>
 
-                    <a href="#">PROJECTS</a>
+                    <a href="#portfolio">PROJECTS</a>
                 </div>
                 <div>
-                    <a href="#">CONTACT</a>
+                    <a href="#contact">CONTACT</a>
                 </div>
 
 
