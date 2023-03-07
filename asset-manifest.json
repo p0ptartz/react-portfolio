@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.781282ec.css",
+    "main.js": "/react-portfolio/static/js/main.b65e40b1.js",
+    "static/media/ufo2.png": "/react-portfolio/static/media/ufo2.0321c8283a4a708a30f7.png",
+    "static/media/mysql.png": "/react-portfolio/static/media/mysql.910a4566f5d136d5196b.png",
+    "static/media/react.webp": "/react-portfolio/static/media/react.f16a4da438c312ed3612.webp",
+    "static/media/twitter.png": "/react-portfolio/static/media/twitter.0e34a8ce79b3ededf600.png",
+    "static/media/mongoose.png": "/react-portfolio/static/media/mongoose.998152e4bc5fdd366c2c.png",
+    "static/media/mongoDB.png": "/react-portfolio/static/media/mongoDB.95ebe78cca60e67709b4.png",
+    "static/media/link.png": "/react-portfolio/static/media/link.e5fa10afcd0c5efa2ffd.png",
+    "static/media/CSS.png": "/react-portfolio/static/media/CSS.ff1af5b2ddda96065cae.png",
+    "static/media/express.png": "/react-portfolio/static/media/express.04e4743fbd704db71ed7.png",
+    "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.9016c575b3cb32b2e85c.png",
+    "static/media/node.png": "/react-portfolio/static/media/node.07d152a8a036951b8d14.png",
+    "static/media/sequelize.png": "/react-portfolio/static/media/sequelize.5e8a00b7e04de33f812b.png",
+    "static/media/github.png": "/react-portfolio/static/media/github.65a029dd14ae5c405656.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.781282ec.css.map": "/react-portfolio/static/css/main.781282ec.css.map",
+    "main.b65e40b1.js.map": "/react-portfolio/static/js/main.b65e40b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.781282ec.css",
+    "static/js/main.b65e40b1.js"
+  ]
+}
