@@ -21,9 +21,9 @@ function Contact() {
                 </div>
                 <div className="contact-right">
 
-                    <a href="#" className="contact-img-1"></a>
-                    <a href="#" className="contact-img-2"></a>
-                    <a href="#" className="contact-img-3"></a>
+                    <a href="https://github.com/p0ptartz" target="blank" className="contact-img-1"></a>
+                    <a href="https://www.linkedin.com/" target="blank" className="contact-img-2"></a>
+                    <a href="https://twitter.com/" target="blank" className="contact-img-3"></a>
 
                 </div>
             </form >
