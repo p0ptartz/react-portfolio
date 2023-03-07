@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: radial-gradient(circle, rgba(17,17,25,1) 0%, rgba(8,9,10,1) 100%, rgba(18,18,23,1) 86%);
